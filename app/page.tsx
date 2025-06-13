@@ -81,7 +81,7 @@ export default function Home() {
                   size="sm"
                   className="bg-gradient-to-r from-[#4f46e5] to-[#4338ca] hover:from-[#4338ca] hover:to-[#3730a3] text-white shadow-lg shadow-[#4f46e5]/20"
                 >
-                  <Link href="https://api.whatsapp.com/send/?phone=5516997898401&text&type=phone_number&app_absent=0">
+                  <Link href="#contato">
                     Agendar Demonstração
                   </Link>
                 </Button>
@@ -238,7 +238,7 @@ export default function Home() {
               size="sm"
               className="w-full bg-gradient-to-r from-[#4f46e5] to-[#4338ca] hover:from-[#4338ca] hover:to-[#3730a3] text-white shadow-lg shadow-[#4f46e5]/20 mt-2"
             >
-              <Link href="https://api.whatsapp.com/send/?phone=5516997898401&text&type=phone_number&app_absent=0">
+              <Link href="#contato"> {/* AQUI FOI FEITA A ALTERAÇÃO */}
                 Agendar Demonstração
               </Link>
             </Button>
@@ -274,9 +274,9 @@ export default function Home() {
                     size="lg"
                     className="bg-gradient-to-r from-[#4f46e5] to-[#4338ca] hover:from-[#4338ca] hover:to-[#3730a3] text-white shadow-lg shadow-[#4f46e5]/20 cta-button"
                   >
-                    <Link href="https://api.whatsapp.com/send/?phone=5516997898401&text&type=phone_number&app_absent=0">
+                    <Link href="#contato">
                       Agendar Demonstração
-                    <ChevronRight className="ml-2 h-4 w-4" />
+                      <ChevronRight className="ml-2 h-4 w-4" />
                     </Link>
                   </Button>
                 </div>
